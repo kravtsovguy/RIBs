@@ -8,9 +8,9 @@ let package = Package(
         .library(name: "RIBs", targets: ["RIBs"])
     ],
     dependencies : [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0"))
+        .package(url: "https://github.com/kravtsovguy/ReactiveTools.git", .branch("master"))
     ],
     targets: [
-        .target(name: "RIBs", dependencies: ["RxSwift", "RxRelay"], path: "ios/RIBs")
+        .target(name: "RIBs", dependencies: ["ReactiveTools-Dynamic"], path: "ios/RIBs")
     ]
 )
