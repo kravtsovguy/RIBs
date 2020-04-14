@@ -16,6 +16,8 @@
 
 import RxSwift
 import RxRelay
+import Foundation
+import UIKit
 
 /// Leak detection status.
 public enum LeakDetectionStatus {

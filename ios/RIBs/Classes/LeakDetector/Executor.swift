@@ -15,6 +15,7 @@
 //
 
 import RxSwift
+import Foundation
 
 public class Executor {
 
