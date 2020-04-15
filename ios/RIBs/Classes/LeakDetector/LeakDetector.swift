@@ -149,7 +149,7 @@ public class LeakDetector {
     // MARK: - Internal Interface
 
     // Test override for leak detectors.
-    static var disableLeakDetectorOverride: Bool = false
+    static var disableLeakDetectorOverride: Bool = true
 
     #if DEBUG
         /// Reset the state of Leak Detector, internal for UI test only.
